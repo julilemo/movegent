@@ -1,0 +1,522 @@
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <Schema name="Sport(Gent)" id="Sport(Gent)">
+            <SimpleField type="int" name="FID"/>
+            <SimpleField type="string" name="Naam"/>
+            <SimpleField type="string" name="straat"/>
+            <SimpleField type="double" name="nr"/>
+            <SimpleField type="double" name="pstcd"/>
+            <SimpleField type="string" name="Gem"/>
+            <SimpleField type="string" name="type"/>
+        </Schema>
+        <name>SportGent</name>
+        <visibility>1</visibility>
+        <Folder id="kml_ft_Sport(Gent)">
+            <name>Sport(Gent)</name>
+            <Placemark id="kml_1">
+                <name>kml_1</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>0</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Bourgoyen</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Driepikkelstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>30</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9030</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Mariakerke</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">0</SimpleData>
+                        <SimpleData name="Naam">Bourgoyen</SimpleData>
+                        <SimpleData name="straat">Driepikkelstraat</SimpleData>
+                        <SimpleData name="nr">30</SimpleData>
+                        <SimpleData name="pstcd">9030</SimpleData>
+                        <SimpleData name="Gem">Mariakerke</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.68082174850063,51.0670195837711,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_2">
+                <name>kml_2</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>1</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Driebeek</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Driebeekstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>22</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9050</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gentbrugge</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">1</SimpleData>
+                        <SimpleData name="Naam">Driebeek</SimpleData>
+                        <SimpleData name="straat">Driebeekstraat</SimpleData>
+                        <SimpleData name="nr">22</SimpleData>
+                        <SimpleData name="pstcd">9050</SimpleData>
+                        <SimpleData name="Gem">Gentbrugge</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.76872261824132,51.0376096402329,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_3">
+                <name>kml_3</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>2</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Hekers</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Ter Linden</td> </tr><tr bgcolor=""> <th>nr</th> <td>29</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9052</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Zwijnaarde</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">2</SimpleData>
+                        <SimpleData name="Naam">Hekers</SimpleData>
+                        <SimpleData name="straat">Ter Linden</SimpleData>
+                        <SimpleData name="nr">29</SimpleData>
+                        <SimpleData name="pstcd">9052</SimpleData>
+                        <SimpleData name="Gem">Zwijnaarde</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.71043023671827,51.003214547577,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_4">
+                <name>kml_4</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>3</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Neptunus</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Botestraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>98</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9032</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Wondelgem</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">3</SimpleData>
+                        <SimpleData name="Naam">Neptunus</SimpleData>
+                        <SimpleData name="straat">Botestraat</SimpleData>
+                        <SimpleData name="nr">98</SimpleData>
+                        <SimpleData name="pstcd">9032</SimpleData>
+                        <SimpleData name="Gem">Wondelgem</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.70358920030471,51.0886307623523,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_5">
+                <name>kml_5</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>4</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Rozebroeken</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Rozebroekslag</td> </tr><tr bgcolor=""> <th>nr</th> <td>24</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9040</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Sint-Amandsberg</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">4</SimpleData>
+                        <SimpleData name="Naam">Rozebroeken</SimpleData>
+                        <SimpleData name="straat">Rozebroekslag</SimpleData>
+                        <SimpleData name="nr">24</SimpleData>
+                        <SimpleData name="pstcd">9040</SimpleData>
+                        <SimpleData name="Gem">Sint-Amandsberg</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.76042703928017,51.0588091751543,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_6">
+                <name>kml_6</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>5</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Tolhuis</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Tolhuislaan</td> </tr><tr bgcolor=""> <th>nr</th> <td>77</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">5</SimpleData>
+                        <SimpleData name="Naam">Tolhuis</SimpleData>
+                        <SimpleData name="straat">Tolhuislaan</SimpleData>
+                        <SimpleData name="nr">77</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.72455206251269,51.0633435462836,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_7">
+                <name>kml_7</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>6</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Wolfput</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Wolfputstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>92</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9041</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Oostakker</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">6</SimpleData>
+                        <SimpleData name="Naam">Wolfput</SimpleData>
+                        <SimpleData name="straat">Wolfputstraat</SimpleData>
+                        <SimpleData name="nr">92</SimpleData>
+                        <SimpleData name="pstcd">9041</SimpleData>
+                        <SimpleData name="Gem">Oostakker</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.76454363850854,51.092941250632,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_8">
+                <name>kml_8</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>7</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Neptunus (openlucht)</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Botestraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>100</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9032</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Wondelgem</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">7</SimpleData>
+                        <SimpleData name="Naam">Neptunus (openlucht)</SimpleData>
+                        <SimpleData name="straat">Botestraat</SimpleData>
+                        <SimpleData name="nr">100</SimpleData>
+                        <SimpleData name="pstcd">9032</SimpleData>
+                        <SimpleData name="Gem">Wondelgem</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7047176321211,51.0866480085378,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_9">
+                <name>kml_9</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>8</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Rooigem</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Peerstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>1</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">8</SimpleData>
+                        <SimpleData name="Naam">Rooigem</SimpleData>
+                        <SimpleData name="straat">Peerstraat</SimpleData>
+                        <SimpleData name="nr">1</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.69182586563794,51.0590584965092,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_10">
+                <name>kml_10</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>9</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Rozebroeken</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Rozebroekslag</td> </tr><tr bgcolor=""> <th>nr</th> <td>28</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9040</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Sint-Amandsberg</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">9</SimpleData>
+                        <SimpleData name="Naam">Rozebroeken</SimpleData>
+                        <SimpleData name="straat">Rozebroekslag</SimpleData>
+                        <SimpleData name="nr">28</SimpleData>
+                        <SimpleData name="pstcd">9040</SimpleData>
+                        <SimpleData name="Gem">Sint-Amandsberg</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.76088287372297,51.0600364026014,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_11">
+                <name>kml_11</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>10</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Strop</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Stropstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>31</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">10</SimpleData>
+                        <SimpleData name="Naam">Strop</SimpleData>
+                        <SimpleData name="straat">Stropstraat</SimpleData>
+                        <SimpleData name="nr">31</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.72898437347536,51.0364721869652,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_12">
+                <name>kml_12</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>11</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Van Eyck</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Veermanplein</td> </tr><tr bgcolor=""> <th>nr</th> <td>1</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">11</SimpleData>
+                        <SimpleData name="Naam">Van Eyck</SimpleData>
+                        <SimpleData name="straat">Veermanplein</SimpleData>
+                        <SimpleData name="nr">1</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.73389151294044,51.053551237585,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_13">
+                <name>kml_13</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>12</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Jan Yoens</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Dracenastraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>8</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Buitensporten</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">12</SimpleData>
+                        <SimpleData name="Naam">Jan Yoens</SimpleData>
+                        <SimpleData name="straat">Dracenastraat</SimpleData>
+                        <SimpleData name="nr">8</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Buitensporten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.71539242420018,51.0759912713685,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_14">
+                <name>kml_14</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>13</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Tennishal</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Zuiderlaan</td> </tr><tr bgcolor=""> <th>nr</th> <td>10</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Buitensporten</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">13</SimpleData>
+                        <SimpleData name="Naam">Tennishal</SimpleData>
+                        <SimpleData name="straat">Zuiderlaan</SimpleData>
+                        <SimpleData name="nr">10</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Buitensporten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.68214560460972,51.0470593176624,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_15">
+                <name>kml_15</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>14</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Keiskant</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Keiskantstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>3</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9031</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Drongen</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Sporthal</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">14</SimpleData>
+                        <SimpleData name="Naam">Keiskant</SimpleData>
+                        <SimpleData name="straat">Keiskantstraat</SimpleData>
+                        <SimpleData name="nr">3</SimpleData>
+                        <SimpleData name="pstcd">9031</SimpleData>
+                        <SimpleData name="Gem">Drongen</SimpleData>
+                        <SimpleData name="type">Sporthal</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.64170838297324,51.0457007618734,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_16">
+                <name>kml_16</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>15</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Rosas</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Sint-Jozefstraat</td> </tr><tr bgcolor=""> <th>nr</th> <td>7</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9041</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Oostakker</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Zwembaden</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">15</SimpleData>
+                        <SimpleData name="Naam">Rosas</SimpleData>
+                        <SimpleData name="straat">Sint-Jozefstraat</SimpleData>
+                        <SimpleData name="nr">7</SimpleData>
+                        <SimpleData name="pstcd">9041</SimpleData>
+                        <SimpleData name="Gem">Oostakker</SimpleData>
+                        <SimpleData name="type">Zwembaden</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.76665267371456,51.0837203408005,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_17">
+                <name>kml_17</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>16</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Blaarmeersen</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Zuiderlaan</td> </tr><tr bgcolor=""> <th>nr</th> <td>5</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Buitensporten</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">16</SimpleData>
+                        <SimpleData name="Naam">Blaarmeersen</SimpleData>
+                        <SimpleData name="straat">Zuiderlaan</SimpleData>
+                        <SimpleData name="nr">5</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Buitensporten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.68806627865641,51.0444176980839,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="kml_18">
+                <name>kml_18</name>
+                <Snippet></Snippet>
+                <description>
+                    <![CDATA[
+<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3"> <th>FID</th> <td>17</td> </tr><tr bgcolor=""> <th>Naam</th> <td>Camping</td> </tr><tr bgcolor="#E3E3F3"> <th>straat</th> <td>Zuiderlaan</td> </tr><tr bgcolor=""> <th>nr</th> <td>12</td> </tr><tr bgcolor="#E3E3F3"> <th>pstcd</th> <td>9000</td> </tr><tr bgcolor=""> <th>Gem</th> <td>Gent</td> </tr><tr bgcolor="#E3E3F3"> <th>type</th> <td>Buitensporten</td> </tr></table></center>
+]]>
+                </description>
+                <Style>
+                    <LineStyle>
+                        <color>ff3000a3</color>
+                    </LineStyle>
+                </Style>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#Sport(Gent)">
+                        <SimpleData name="FID">17</SimpleData>
+                        <SimpleData name="Naam">Camping</SimpleData>
+                        <SimpleData name="straat">Zuiderlaan</SimpleData>
+                        <SimpleData name="nr">12</SimpleData>
+                        <SimpleData name="pstcd">9000</SimpleData>
+                        <SimpleData name="Gem">Gent</SimpleData>
+                        <SimpleData name="type">Buitensporten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.68046305985085,51.0463595342927,0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

@@ -1,0 +1,434 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.68082174850063,
+        51.0670195837711,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_1",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "0",
+      "Naam": "Bourgoyen",
+      "straat": "Driepikkelstraat",
+      "nr": "30",
+      "pstcd": "9030",
+      "Gem": "Mariakerke",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.76872261824132,
+        51.0376096402329,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_2",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "1",
+      "Naam": "Driebeek",
+      "straat": "Driebeekstraat",
+      "nr": "22",
+      "pstcd": "9050",
+      "Gem": "Gentbrugge",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.71043023671827,
+        51.003214547577,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_3",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "2",
+      "Naam": "Hekers",
+      "straat": "Ter Linden",
+      "nr": "29",
+      "pstcd": "9052",
+      "Gem": "Zwijnaarde",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.70358920030471,
+        51.0886307623523,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_4",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "3",
+      "Naam": "Neptunus",
+      "straat": "Botestraat",
+      "nr": "98",
+      "pstcd": "9032",
+      "Gem": "Wondelgem",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.76042703928017,
+        51.0588091751543,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_5",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "4",
+      "Naam": "Rozebroeken",
+      "straat": "Rozebroekslag",
+      "nr": "24",
+      "pstcd": "9040",
+      "Gem": "Sint-Amandsberg",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.72455206251269,
+        51.0633435462836,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_6",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "5",
+      "Naam": "Tolhuis",
+      "straat": "Tolhuislaan",
+      "nr": "77",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.76454363850854,
+        51.092941250632,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_7",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "6",
+      "Naam": "Wolfput",
+      "straat": "Wolfputstraat",
+      "nr": "92",
+      "pstcd": "9041",
+      "Gem": "Oostakker",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7047176321211,
+        51.0866480085378,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_8",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "7",
+      "Naam": "Neptunus (openlucht)",
+      "straat": "Botestraat",
+      "nr": "100",
+      "pstcd": "9032",
+      "Gem": "Wondelgem",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.69182586563794,
+        51.0590584965092,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_9",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "8",
+      "Naam": "Rooigem",
+      "straat": "Peerstraat",
+      "nr": "1",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.76088287372297,
+        51.0600364026014,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_10",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "9",
+      "Naam": "Rozebroeken",
+      "straat": "Rozebroekslag",
+      "nr": "28",
+      "pstcd": "9040",
+      "Gem": "Sint-Amandsberg",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.72898437347536,
+        51.0364721869652,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_11",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "10",
+      "Naam": "Strop",
+      "straat": "Stropstraat",
+      "nr": "31",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.73389151294044,
+        51.053551237585,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_12",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "11",
+      "Naam": "Van Eyck",
+      "straat": "Veermanplein",
+      "nr": "1",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.71539242420018,
+        51.0759912713685,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_13",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "12",
+      "Naam": "Jan Yoens",
+      "straat": "Dracenastraat",
+      "nr": "8",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Buitensporten"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.68214560460972,
+        51.0470593176624,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_14",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "13",
+      "Naam": "Tennishal",
+      "straat": "Zuiderlaan",
+      "nr": "10",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Buitensporten"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.64170838297324,
+        51.0457007618734,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_15",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "14",
+      "Naam": "Keiskant",
+      "straat": "Keiskantstraat",
+      "nr": "3",
+      "pstcd": "9031",
+      "Gem": "Drongen",
+      "type": "Sporthal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.76665267371456,
+        51.0837203408005,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_16",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "15",
+      "Naam": "Rosas",
+      "straat": "Sint-Jozefstraat",
+      "nr": "7",
+      "pstcd": "9041",
+      "Gem": "Oostakker",
+      "type": "Zwembaden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.68806627865641,
+        51.0444176980839,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_17",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "16",
+      "Naam": "Blaarmeersen",
+      "straat": "Zuiderlaan",
+      "nr": "5",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Buitensporten"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.68046305985085,
+        51.0463595342927,
+        0
+      ]
+    },
+    "properties": {
+      "name": "kml_18",
+      "description": "\n                    ",
+      "stroke": "3000a3",
+      "stroke-opacity": 1,
+      "FID": "17",
+      "Naam": "Camping",
+      "straat": "Zuiderlaan",
+      "nr": "12",
+      "pstcd": "9000",
+      "Gem": "Gent",
+      "type": "Buitensporten"
+    }
+  }
+]

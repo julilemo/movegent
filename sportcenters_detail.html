@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoveGent</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/font-awesome.css" />
+</head>
+<body>
+    <header class="header">
+            <ul class="header_nav">
+                <li class="nav_item"><a href="index.html">Home</a></li>
+                <li class="nav_item"><a href="map.html">Map</a></li>
+                <li class="nav_item"><a href="sportcenters.html">Sportcentra</a></li>
+                <li class="nav_item"><a href="playgrounds.html">Speelpleinen</a></li>
+                <li class="nav_item"><a href="others.html">Extra</a></li>
+                <li class="account_item signup"><a href="#">Sign up</a></li>
+                <li class="account_item login"><a href="#">Login</a></li>
+            </ul>
+    </header>
+    <main id="sportcenters">
+        <div class="banner">
+            <img class="banner_background" src="content/banner3.jpg">
+            <img class="banner_logo" src="content/logo2.png">
+        </div>
+        <div class="container">
+            <div class="map">
+                <h1>Sportcentra</h1>
+                <div id="map"></div>
+                <script src="js/main.js" type="text/javascript"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrtBsyPz3YZKr3yq1CIwCnX6DSCa8vvww&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="footer_link" href="#">Disclaimer</a>
+    </footer>
+
+    <!-- My Own Scripts: Main Script -->
+    <script src="js/utils.js"></script>
+    <script src="js/sportcentra.js"></script>
+
+</body>
+</html>

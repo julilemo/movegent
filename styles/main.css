@@ -1,0 +1,278 @@
+* {
+  margin: 0 auto;
+  font-family: Roboto, "Helvetica Neue", Arial; }
+
+a {
+  text-decoration: none; }
+
+/* header */
+header {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 5; }
+  header .header_nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px; }
+    header .header_nav .nav_item {
+      float: left; }
+      header .header_nav .nav_item a {
+        display: block;
+        color: black;
+        text-align: right;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-size: 14pt;
+        font-weight: 500; }
+      header .header_nav .nav_item a:hover {
+        border-bottom: 3px solid blue; }
+    header .header_nav .account_item {
+      float: right; }
+      header .header_nav .account_item a {
+        display: block;
+        border-radius: 10px;
+        text-align: right;
+        padding: 12px 25px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: large;
+        font-weight: 500;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+      header .header_nav .account_item a:hover {
+        background: transparent; }
+    header .header_nav .signup a {
+      background: coral;
+      color: white;
+      border: 1px solid coral; }
+    header .header_nav .signup a:hover {
+      background: transparent;
+      color: coral;
+      border: 1px solid coral; }
+    header .header_nav .login a {
+      color: white;
+      background: blue;
+      border: 1px solid blue; }
+    header .header_nav .login a:hover {
+      background: transparent;
+      color: blue;
+      border: 1px solid blue; }
+
+/* Main */
+#home .banner {
+  position: relative;
+  top: 0;
+  left: 0; }
+  #home .banner .banner_background {
+    min-height: 600px;
+    height: 100%;
+    width: 100%; }
+  #home .banner .banner_foreground {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    left: 300px;
+    right: 300px; }
+    #home .banner .banner_foreground .banner_logo {
+      margin-bottom: 40px; }
+    #home .banner .banner_foreground h1 {
+      color: rgba(0, 0, 0, 0.5); }
+
+#sportcenters {
+  text-align: center; }
+  #sportcenters .banner {
+    position: relative;
+    top: 0;
+    left: 0; }
+    #sportcenters .banner .banner_background {
+      height: 100%;
+      width: 100%;
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+      filter: blur(3px); }
+    #sportcenters .banner .banner_logo {
+      position: absolute;
+      top: 100px;
+      right: 300px;
+      left: 300px;
+      height: 60%;
+      width: 25%; }
+  #sportcenters .categories {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    #sportcenters .categories .categories_btn {
+      width: 750px;
+      height: 100px;
+      border-radius: 20px;
+      display: block;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      font-size: 16pt;
+      font-weight: 500;
+      background: coral;
+      color: white;
+      border: 1px solid coral;
+      -webkit-transition-duration: 0.4s;
+      /* Safari */
+      transition-duration: 0.4s; }
+    #sportcenters .categories .categories_btn:hover {
+      background: white;
+      color: coral;
+      border: 1px solid coral; }
+
+/* Data results (list) */
+.container {
+  padding-top: 20px; }
+  .container .map {
+    overflow: auto; }
+    .container .map #map {
+      float: right;
+      width: calc(100% - 335px);
+      display: block;
+      height: 600px;
+      margin: 30px 40px 30px 40px; }
+    .container .map #movegent-results {
+      display: none;
+      overflow: auto; }
+      .container .map #movegent-results .movegent-results {
+        float: right;
+        width: calc(100% - 335px); }
+    .container .map .filter {
+      min-height: 200px;
+      width: 200px;
+      text-align: center;
+      float: left;
+      margin-top: 30px;
+      margin-left: 40px;
+      margin-bottom: 30px;
+      border: 2px solid lightgray;
+      padding: 10px 5px; }
+      .container .map .filter .filter_cbx {
+        margin: 15px 10px 5px 10px;
+        background: rgba(255, 128, 80, 0.3);
+        color: black;
+        border-radius: 10px;
+        border: 1px solid coral;
+        overflow: auto;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+        .container .map .filter .filter_cbx label span {
+          font-size: 10pt;
+          text-align: center;
+          padding: 10px 5px;
+          display: block; }
+        .container .map .filter .filter_cbx label input {
+          display: none; }
+        .container .map .filter .filter_cbx input:checked + span {
+          background: #ff8050;
+          color: white;
+          border: 1px solid coral; }
+      .container .map .filter .filter_cbx:hover {
+        background: rgba(255, 128, 80, 0.8);
+        color: white;
+        border: 1px solid coral;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+      .container .map .filter .filter_btn {
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        text-decoration: none;
+        font-size: 11pt;
+        font-weight: 400;
+        background: rgba(0, 0, 255, 0.1);
+        color: blue;
+        border: 1px solid blue;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+      .container .map .filter .filter_btn:hover {
+        background: rgba(0, 0, 255, 0.8);
+        color: white;
+        border: 1px solid blue; }
+      .container .map .filter .clear {
+        background: rgba(255, 0, 0, 0);
+        color: red;
+        border: 1px solid red; }
+      .container .map .filter .clear:hover {
+        background: red;
+        color: white;
+        border: 1px solid red; }
+      .container .map .filter .format {
+        height: 50px;
+        width: 50px;
+        background: rgba(0, 0, 0, 0.1);
+        color: black;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        border-radius: 100%; }
+        .container .map .filter .format i {
+          font-size: 14pt; }
+      .container .map .filter .format:hover {
+        background: black;
+        color: white;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+  .container .movegent-results {
+    text-align: left;
+    margin: 30px 40px 30px 40px; }
+    .container .movegent-results .results {
+      overflow: auto;
+      min-height: 50px;
+      padding: 20px;
+      border: 1px solid rgba(0, 0, 255, 0.05);
+      background: rgba(0, 0, 255, 0.05); }
+      .container .movegent-results .results h1 {
+        color: coral;
+        margin-bottom: 10px; }
+      .container .movegent-results .results h3 {
+        color: blue;
+        margin-bottom: 10px; }
+      .container .movegent-results .results .results_left {
+        float: left; }
+      .container .movegent-results .results .results_right {
+        float: right; }
+        .container .movegent-results .results .results_right a {
+          font-size: 40pt;
+          margin-left: 10px; }
+        .container .movegent-results .results .results_right .orange {
+          color: rgba(255, 128, 80, 0.5); }
+        .container .movegent-results .results .results_right .orange:hover {
+          color: #ff8050; }
+        .container .movegent-results .results .results_right .blue {
+          color: rgba(0, 0, 255, 0.5); }
+        .container .movegent-results .results .results_right .blue:hover {
+          color: blue; }
+
+/* Footer */
+footer {
+  background: black;
+  margin-top: -4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; }
+  footer .footer_link {
+    color: white;
+    font-weight: 500;
+    font-size: 12pt; }
+  footer .footer_link:hover {
+    color: lightgray; }

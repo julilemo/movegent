@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoveGent</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/font-awesome.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+            <ul class="header_nav">
+                <li class="nav_item"><a href="index.html">Home</a></li>
+                <li class="nav_item"><a href="map.html">Map</a></li>
+                <li class="nav_item"><a href="sportcenters.html">Sportcentra</a></li>
+                <li class="nav_item"><a href="playgrounds.html">Speelpleinen</a></li>
+                <li class="nav_item"><a href="others.html">Extra</a></li>
+                <li class="account_item signup"><a href="#">Sign up</a></li>
+                <li class="account_item login"><a href="#">Login</a></li>
+            </ul>
+    </header>
+    <main id="sportcenters">
+        <div class="banner">
+            <img class="banner_background" src="content/banner3.jpg">
+            <img class="banner_logo" src="content/logo2.png">
+        </div>
+        <div class="container">
+            <div class="map">
+                <h1>Map</h1>
+                <div class="filter">
+                    <div style="width: 100%;">
+                        <button class="format" id="btn_list"><i class="fa fa-th-list" aria-hidden="true"></i></button>
+                        <button class="format" id="btn_map"><i class="fa fa-map-signs" aria-hidden="true"></i></button>
+                        <button class="format" id="btn_geolocation"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+                    </div>
+                    <div id="filter_options">
+                        <div class="filter_cbx">
+                            <label>
+                                <input type="checkbox" class="cbx" id="sportcentra" onchange="showSportCentra();">
+                                <span><i class="fa fa-map" aria-hidden="true"></i> Sportcentra</span>
+                            </label>
+                        </div>
+                        <div id="sportcentra_options" style="display: none;">
+                            <button class="filter_btn" id="sportcentra_zwembad"><i class="fa fa-map" aria-hidden="true"></i> Zwembad</button>
+                            <button class="filter_btn" id="sportcentra_sporthal"><i class="fa fa-map" aria-hidden="true"></i> Sporthal</button>
+                            <button class="filter_btn" id="sportcentra_buitensport"><i class="fa fa-map" aria-hidden="true"></i> Buitensport</button>
+                        </div>
+                        <div class="filter_cbx">
+                            <label>
+                                <input type="checkbox" class="cbx" id="speelterreinen" onchange="showSpeelTerreinen();">
+                                <span><i class="fa fa-futbol-o" aria-hidden="true"></i> Speelterreinen</span>
+                            </label>
+                        </div>
+                        <div id="speelterreinen_options" style="display: none;">
+                            <button class="filter_btn" id="speelterreinen_voetbal"><i class="fa fa-futbol-o" aria-hidden="true"></i> Voetbal</button>
+                            <button class="filter_btn" id="speelterreinen_basketbal"><i class="fa fa-futbol-o" aria-hidden="true"></i> Basketbal</button>
+                            <button class="filter_btn" id="speelterreinen_skate"><i class="fa fa-futbol-o" aria-hidden="true"></i> Skate</button>
+                            <button class="filter_btn" id="speelterreinen_petanque"><i class="fa fa-futbol-o" aria-hidden="true"></i> Petanque</button>
+                            <button class="filter_btn" id="speelterreinen_zandbak"><i class="fa fa-futbol-o" aria-hidden="true"></i> Zandbak</button>
+                            <button class="filter_btn" id="speelterreinen_avontuurlijkspelen"><i class="fa fa-futbol-o" aria-hidden="true"></i> Avontuurlijk spelen</button>
+                            <button class="filter_btn" id="speelterreinen_speeltoestellen"><i class="fa fa-futbol-o" aria-hidden="true"></i> Speeltoestellen</button>
+                        </div>
+                        <div class="filter_cbx">
+                            <label>
+                                <input type="checkbox" class="cbx" id="hondenvoorzieningen" onchange="showHonden();">
+                                <span><i class="fa fa-paw" aria-hidden="true"></i> Hondenvoorzieningen</span>
+                            </label>
+                        </div>
+                        <div id="hondenvoorzieningen_options" style="display: none;">
+                            <button class="filter_btn" id="hondenvoorzieningen_tegel"><i class="fa fa-paw" aria-hidden="true"></i> Anti-hondenpoeptegel</button>
+                            <button class="filter_btn" id="hondenvoorzieningen_toilet"><i class="fa fa-paw" aria-hidden="true"></i> Hondentoilet</button>
+                            <button class="filter_btn" id="hondenvoorzieningen_losloopweide"><i class="fa fa-paw" aria-hidden="true"></i> Losloopweide</button>
+                        </div>
+                        <div class="filter_cbx">
+                            <label>
+                                <input type="checkbox" class="cbx" id="wandelroutes" onchange="showWandelRoutes();">
+                                <span><i class="fa fa-map-signs" aria-hidden="true"></i> Wandelroutes</span>
+                            </label>
+                        </div>
+                        <div id="wandelroutes_options" style="display: none;">
+                            <button class="filter_btn" id="toeristischeWandelroutes"><i class="fa fa-map-signs" aria-hidden="true"></i> Toeristische wandelroutes</button>
+                        </div>
+                        <!-- <button class="filter_btn" id="toeristischeWandelroutes">Toeristische wanelroutes</button> -->
+                        <div class="filter_cbx">
+                            <label>
+                                <input type="checkbox" class="cbx" id="parken" onchange="showParken();">
+                                <span><i class="fa fa-tree" aria-hidden="true"></i> Parken</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="filter_btn clear" id="clear">Clear</button>
+                </div>
+                <div id="map"></div>
+                <div id="movegent-results">
+                    <div class="movegent-results"></div>
+                </div>
+                <script src="js/main.js" type="text/javascript"></script>
+                <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrtBsyPz3YZKr3yq1CIwCnX6DSCa8vvww&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="footer_link" href="#">Disclaimer</a>
+    </footer>
+
+    <!-- My Own Scripts: Main Script -->
+    <script src="js/utils.js"></script>
+</body>
+</html>
