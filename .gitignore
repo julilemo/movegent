@@ -1,0 +1,10 @@
+.DS_Store
+_site/
+.bundle/
+.sass-cache/
+bower_components/
+components/
+node_modules/
+vendor/
+/Gemfile.lock
+/.jekyll-metadata
