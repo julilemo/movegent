@@ -19,7 +19,7 @@ var category_marker = [];
 var category_shapes = [];
 var stroke_color = [];
 var fill_color = [];
-var iconBase = "content/icons/";
+var iconBase = "content/";
 var icon_array = [];
 var icon;
 var icons = {
