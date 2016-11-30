@@ -37,6 +37,12 @@
                     <div id="filter_options">
                         <div class="filter_cbx">
                             <label>
+                                <input type="checkbox" class="cbx" id="show_all" checked="checked" onchange="showAll();">
+                                <span><i class="fa fa-map" aria-hidden="true"></i> Alles weergeven</span>
+                            </label>
+                        </div>
+                        <div class="filter_cbx">
+                            <label>
                                 <input type="checkbox" class="cbx" id="sportcentra" onchange="showSportCentra();">
                                 <span><i class="fa fa-map" aria-hidden="true"></i> Sportcentra</span>
                             </label>
@@ -79,7 +85,7 @@
                             </label>
                         </div>
                         <div id="wandelroutes_options" style="display: none;">
-                            <button class="filter_btn" id="toeristischeWandelroutes"><i class="fa fa-map-signs" aria-hidden="true"></i> Toeristische wandelroutes</button>
+                            <button class="filter_btn" id="toeristische_wandelroutes"><i class="fa fa-map-signs" aria-hidden="true"></i> Toeristische wandelroutes</button>
                         </div>
                         <!-- <button class="filter_btn" id="toeristischeWandelroutes">Toeristische wanelroutes</button> -->
                         <div class="filter_cbx">
@@ -89,7 +95,7 @@
                             </label>
                         </div>
                     </div>
-                    <button class="filter_btn clear" id="clear">Clear</button>
+                    <button class="filter_btn clear" id="btn_clear">Clear</button>
                 </div>
                 <div id="map"></div>
                 <div id="movegent-results">
